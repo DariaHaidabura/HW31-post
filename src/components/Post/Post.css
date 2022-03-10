@@ -1,0 +1,97 @@
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+
+.posts {
+  margin-left:85px;
+  margin-right: 30px;
+  width:700px;
+  height: 800px;
+  display:inline-block;
+  border-radius: 5px;
+  font-size: 15px;
+  position: relative;
+}
+
+.add-post {
+  background-color: #2bc0e2;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  border: 5px normal rgb(3, 22, 58);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  bottom:130px;
+  left:1500px;
+}
+
+.all-posts {
+  margin: 100px 0px 10px 20px;
+  position: relative;
+  bottom:75px;
+  width:1500px;
+  left:40px;
+  font-size: xx-large;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.edit {
+  width:100px;
+  height: 45px;
+  position:absolute;
+  left:86%;
+  top:0%;
+  border-radius:3px;
+  font-size:20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:rgb(198, 234, 243);
+}
+
+.ant-card-head {
+  width: 0%;
+  height: 0%;
+}
+
+.preview {
+  width:100%;
+  height: 400px;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 2px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-1 {
+  background: rgb(251, 236, 149);
+  background: linear-gradient(0deg, rgb(245, 236, 190) 0%, rgb(243, 225, 132) 100%);
+  border: none;
+}
+.btn-1:hover {
+  background: rgb(243, 223, 110);
+  background: linear-gradient(0deg, rgb(240, 219, 113) 0%, rgb(245, 220, 97) 100%);
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute; 
+	bottom:0;
+}

@@ -1,0 +1,20 @@
+body {
+/* background-image: url("https://poster.nicefon.ru/2016_07/06/1080x610/93618b0b0f0f030301010.jpg"); */
+ background-size: 100% auto;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root {
+  size: 0vmax;
+  display: flex;
+ width:1300px;
+
+}
+
+button {
+  cursor: pointer;
+}

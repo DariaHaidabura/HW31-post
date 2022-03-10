@@ -1,0 +1,26 @@
+.selected-item {
+  margin: 50px 100px 30px 400px;
+}
+
+.posts {
+  margin-left:85px;
+  margin-right: 30px;
+  width:700px;
+  height: 800px;
+  display:inline-block;
+  border-radius: 5px;
+  font-size: 15px;
+  position: relative;
+  border-color: rgb(170, 165, 165);
+}
+
+.comments-list {
+  margin: 5px 20px 40px 310px;
+  display:inline-block;
+  width:1000px;
+  height: 100px;
+}
+
+.comment-item {
+  color:white;
+}
